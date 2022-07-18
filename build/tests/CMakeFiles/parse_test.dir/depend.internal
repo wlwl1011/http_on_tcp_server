@@ -4,4 +4,4 @@
 tests/CMakeFiles/parse_test.dir/parse_test.cpp.o
  ../client_http.hpp
  ../server_http.hpp
- /home/ubuntu/Workspace/http_on_tcp_server/tests/parse_test.cpp
+ /home/minzzl/Workspace/http_on_tcp_server/tests/parse_test.cpp

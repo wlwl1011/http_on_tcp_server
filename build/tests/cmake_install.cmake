@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Workspace/http_on_tcp_server/tests
+# Install script for directory: /home/minzzl/Workspace/http_on_tcp_server/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

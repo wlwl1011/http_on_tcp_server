@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/Workspace/http_on_tcp_server/https_examples.cpp" "/home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/https_examples.dir/https_examples.cpp.o"
+  "/home/minzzl/Workspace/http_on_tcp_server/https_examples.cpp" "/home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/https_examples.dir/https_examples.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

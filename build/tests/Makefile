@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Workspace/http_on_tcp_server
+CMAKE_SOURCE_DIR = /home/minzzl/Workspace/http_on_tcp_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Workspace/http_on_tcp_server/build
+CMAKE_BINARY_DIR = /home/minzzl/Workspace/http_on_tcp_server/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles /home/ubuntu/Workspace/http_on_tcp_server/build/tests/CMakeFiles/progress.marks
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles 0
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles /home/minzzl/Workspace/http_on_tcp_server/build/tests/CMakeFiles/progress.marks
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/crypto_test.dir/rule:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/crypto_test.dir/rule
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/crypto_test.dir/rule
 .PHONY : tests/CMakeFiles/crypto_test.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ crypto_test: tests/CMakeFiles/crypto_test.dir/rule
 
 # fast build rule for target.
 crypto_test/fast:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/build
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/build
 .PHONY : crypto_test/fast
 
 # Convenience name for target.
 tests/CMakeFiles/parse_test.dir/rule:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/parse_test.dir/rule
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/parse_test.dir/rule
 .PHONY : tests/CMakeFiles/parse_test.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ parse_test: tests/CMakeFiles/parse_test.dir/rule
 
 # fast build rule for target.
 parse_test/fast:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/build
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/build
 .PHONY : parse_test/fast
 
 # Convenience name for target.
 tests/CMakeFiles/io_test.dir/rule:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/io_test.dir/rule
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/io_test.dir/rule
 .PHONY : tests/CMakeFiles/io_test.dir/rule
 
 # Convenience name for target.
@@ -209,7 +209,7 @@ io_test: tests/CMakeFiles/io_test.dir/rule
 
 # fast build rule for target.
 io_test/fast:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/build
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/build
 .PHONY : io_test/fast
 
 crypto_test.o: crypto_test.cpp.o
@@ -218,7 +218,7 @@ crypto_test.o: crypto_test.cpp.o
 
 # target to build an object file
 crypto_test.cpp.o:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/crypto_test.cpp.o
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/crypto_test.cpp.o
 .PHONY : crypto_test.cpp.o
 
 crypto_test.i: crypto_test.cpp.i
@@ -227,7 +227,7 @@ crypto_test.i: crypto_test.cpp.i
 
 # target to preprocess a source file
 crypto_test.cpp.i:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/crypto_test.cpp.i
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/crypto_test.cpp.i
 .PHONY : crypto_test.cpp.i
 
 crypto_test.s: crypto_test.cpp.s
@@ -236,7 +236,7 @@ crypto_test.s: crypto_test.cpp.s
 
 # target to generate assembly for a file
 crypto_test.cpp.s:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/crypto_test.cpp.s
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/crypto_test.dir/build.make tests/CMakeFiles/crypto_test.dir/crypto_test.cpp.s
 .PHONY : crypto_test.cpp.s
 
 io_test.o: io_test.cpp.o
@@ -245,7 +245,7 @@ io_test.o: io_test.cpp.o
 
 # target to build an object file
 io_test.cpp.o:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/io_test.cpp.o
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/io_test.cpp.o
 .PHONY : io_test.cpp.o
 
 io_test.i: io_test.cpp.i
@@ -254,7 +254,7 @@ io_test.i: io_test.cpp.i
 
 # target to preprocess a source file
 io_test.cpp.i:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/io_test.cpp.i
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/io_test.cpp.i
 .PHONY : io_test.cpp.i
 
 io_test.s: io_test.cpp.s
@@ -263,7 +263,7 @@ io_test.s: io_test.cpp.s
 
 # target to generate assembly for a file
 io_test.cpp.s:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/io_test.cpp.s
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/io_test.dir/build.make tests/CMakeFiles/io_test.dir/io_test.cpp.s
 .PHONY : io_test.cpp.s
 
 parse_test.o: parse_test.cpp.o
@@ -272,7 +272,7 @@ parse_test.o: parse_test.cpp.o
 
 # target to build an object file
 parse_test.cpp.o:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/parse_test.cpp.o
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/parse_test.cpp.o
 .PHONY : parse_test.cpp.o
 
 parse_test.i: parse_test.cpp.i
@@ -281,7 +281,7 @@ parse_test.i: parse_test.cpp.i
 
 # target to preprocess a source file
 parse_test.cpp.i:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/parse_test.cpp.i
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/parse_test.cpp.i
 .PHONY : parse_test.cpp.i
 
 parse_test.s: parse_test.cpp.s
@@ -290,7 +290,7 @@ parse_test.s: parse_test.cpp.s
 
 # target to generate assembly for a file
 parse_test.cpp.s:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/parse_test.cpp.s
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(MAKE) -f tests/CMakeFiles/parse_test.dir/build.make tests/CMakeFiles/parse_test.dir/parse_test.cpp.s
 .PHONY : parse_test.cpp.s
 
 # Help Target
@@ -329,6 +329,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Workspace/http_on_tcp_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/minzzl/Workspace/http_on_tcp_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

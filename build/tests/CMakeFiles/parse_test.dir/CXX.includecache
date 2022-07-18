@@ -50,11 +50,11 @@ boost/regex.hpp
 regex
 -
 
-/home/ubuntu/Workspace/http_on_tcp_server/tests/parse_test.cpp
+/home/minzzl/Workspace/http_on_tcp_server/tests/parse_test.cpp
 server_http.hpp
-/home/ubuntu/Workspace/http_on_tcp_server/tests/server_http.hpp
+/home/minzzl/Workspace/http_on_tcp_server/tests/server_http.hpp
 client_http.hpp
-/home/ubuntu/Workspace/http_on_tcp_server/tests/client_http.hpp
+/home/minzzl/Workspace/http_on_tcp_server/tests/client_http.hpp
 iostream
 -
 cassert

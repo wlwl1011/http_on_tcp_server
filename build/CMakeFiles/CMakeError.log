@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp
+Change Dir: /home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a6ca3/fast && /usr/bin/make -f CMakeFiles/cmTC_a6ca3.dir/build.make CMakeFiles/cmTC_a6ca3.dir/build
-make[1]: Entering directory '/home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a6ca3.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a6ca3.dir/src.c.o   -c /home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a6ca3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6ca3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a6ca3.dir/src.c.o  -o cmTC_a6ca3 
-/usr/bin/ld: CMakeFiles/cmTC_a6ca3.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_2b6cd/fast && /usr/bin/make -f CMakeFiles/cmTC_2b6cd.dir/build.make CMakeFiles/cmTC_2b6cd.dir/build
+make[1]: Entering directory '/home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b6cd.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2b6cd.dir/src.c.o   -c /home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2b6cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b6cd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_2b6cd.dir/src.c.o  -o cmTC_2b6cd 
+/usr/bin/ld: CMakeFiles/cmTC_2b6cd.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a6ca3.dir/build.make:87: cmTC_a6ca3] Error 1
-make[1]: Leaving directory '/home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a6ca3/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_2b6cd.dir/build.make:87: cmTC_2b6cd] Error 1
+make[1]: Leaving directory '/home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_2b6cd/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp
+Change Dir: /home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_82b15/fast && /usr/bin/make -f CMakeFiles/cmTC_82b15.dir/build.make CMakeFiles/cmTC_82b15.dir/build
-make[1]: Entering directory '/home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_82b15.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_82b15.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_82b15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82b15.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_82b15.dir/CheckFunctionExists.c.o  -o cmTC_82b15  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_8483b/fast && /usr/bin/make -f CMakeFiles/cmTC_8483b.dir/build.make CMakeFiles/cmTC_8483b.dir/build
+make[1]: Entering directory '/home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8483b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8483b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8483b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8483b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8483b.dir/CheckFunctionExists.c.o  -o cmTC_8483b  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_82b15.dir/build.make:87: cmTC_82b15] Error 1
-make[1]: Leaving directory '/home/ubuntu/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_82b15/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_8483b.dir/build.make:87: cmTC_8483b] Error 1
+make[1]: Leaving directory '/home/minzzl/Workspace/http_on_tcp_server/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8483b/fast] Error 2
 
 
 

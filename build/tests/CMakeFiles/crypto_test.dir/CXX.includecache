@@ -28,11 +28,11 @@ openssl/sha.h
 openssl/md5.h
 -
 
-/home/ubuntu/Workspace/http_on_tcp_server/tests/crypto_test.cpp
+/home/minzzl/Workspace/http_on_tcp_server/tests/crypto_test.cpp
 vector
 -
 cassert
 -
 crypto.hpp
-/home/ubuntu/Workspace/http_on_tcp_server/tests/crypto.hpp
+/home/minzzl/Workspace/http_on_tcp_server/tests/crypto.hpp
 

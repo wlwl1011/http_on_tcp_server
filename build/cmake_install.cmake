@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Workspace/http_on_tcp_server
+# Install script for directory: /home/minzzl/Workspace/http_on_tcp_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/simple-web-server" TYPE FILE FILES
-    "/home/ubuntu/Workspace/http_on_tcp_server/server_http.hpp"
-    "/home/ubuntu/Workspace/http_on_tcp_server/client_http.hpp"
-    "/home/ubuntu/Workspace/http_on_tcp_server/server_https.hpp"
-    "/home/ubuntu/Workspace/http_on_tcp_server/client_https.hpp"
+    "/home/minzzl/Workspace/http_on_tcp_server/server_http.hpp"
+    "/home/minzzl/Workspace/http_on_tcp_server/client_http.hpp"
+    "/home/minzzl/Workspace/http_on_tcp_server/server_https.hpp"
+    "/home/minzzl/Workspace/http_on_tcp_server/client_https.hpp"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Workspace/http_on_tcp_server/build/tests/cmake_install.cmake")
+  include("/home/minzzl/Workspace/http_on_tcp_server/build/tests/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/Workspace/http_on_tcp_server/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/minzzl/Workspace/http_on_tcp_server/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

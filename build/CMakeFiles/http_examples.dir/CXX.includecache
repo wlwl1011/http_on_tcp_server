@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/Workspace/http_on_tcp_server/client_http.hpp
+/home/minzzl/Workspace/http_on_tcp_server/client_http.hpp
 boost/asio.hpp
 -
 boost/utility/string_ref.hpp
@@ -26,7 +26,7 @@ mutex
 type_traits
 -
 
-/home/ubuntu/Workspace/http_on_tcp_server/crypto.hpp
+/home/minzzl/Workspace/http_on_tcp_server/crypto.hpp
 string
 -
 cmath
@@ -48,11 +48,11 @@ openssl/sha.h
 openssl/md5.h
 -
 
-/home/ubuntu/Workspace/http_on_tcp_server/http_examples.cpp
+/home/minzzl/Workspace/http_on_tcp_server/http_examples.cpp
 server_http.hpp
-/home/ubuntu/Workspace/http_on_tcp_server/server_http.hpp
+/home/minzzl/Workspace/http_on_tcp_server/server_http.hpp
 client_http.hpp
-/home/ubuntu/Workspace/http_on_tcp_server/client_http.hpp
+/home/minzzl/Workspace/http_on_tcp_server/client_http.hpp
 boost/property_tree/ptree.hpp
 -
 boost/property_tree/json_parser.hpp
@@ -66,9 +66,9 @@ vector
 algorithm
 -
 crypto.hpp
-/home/ubuntu/Workspace/http_on_tcp_server/crypto.hpp
+/home/minzzl/Workspace/http_on_tcp_server/crypto.hpp
 
-/home/ubuntu/Workspace/http_on_tcp_server/server_http.hpp
+/home/minzzl/Workspace/http_on_tcp_server/server_http.hpp
 boost/asio.hpp
 -
 boost/algorithm/string/predicate.hpp

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wall -Wextra -DHAVE_OPENSSL -fno-access-control
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu/Workspace/http_on_tcp_server/. 
+CXX_INCLUDES = -I/home/minzzl/Workspace/http_on_tcp_server/. 
 
