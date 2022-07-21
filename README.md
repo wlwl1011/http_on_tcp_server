@@ -42,7 +42,7 @@ cd ..
 
 Run the server and client examples: `./build/http_examples`
 
-Direct your favorite browser to for instance http://localhost:8080/
+Direct your favorite browser to for instance http://localhost:8000/
 
 #### HTTPS
 
@@ -50,5 +50,5 @@ Before running the server, an RSA private key (server.key) and an SSL certificat
 
 Run the server and client examples: `./build/https_examples`
 
-Direct your favorite browser to for instance https://localhost:8080/
+Direct your favorite browser to for instance https://localhost:8000/
 

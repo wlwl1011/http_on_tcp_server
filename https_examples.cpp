@@ -26,11 +26,11 @@ void default_resource_send(const HttpsServer &server, const shared_ptr<HttpsServ
 
 int main()
 {
-    // HTTPS-server at port 8080 using 1 thread
+    // HTTPS-server at port 8000 using 1 thread
     // Unless you do more heavy non-threaded processing in the resources,
     // 1 thread is usually faster than several threads
     HttpsServer server("./certs/cert.pem", "./certs/priv.key");
-    server.config.port = 8080;
+    server.config.port = 8000;
     std::cout << "서버 실행" << std::endl;
 
     // Add resources using path-regex and method-string, and an anonymous function
@@ -187,7 +187,7 @@ int main()
     // Wait for server to start so that the client can connect
     this_thread::sleep_for(chrono::seconds(1));
 
-        server_thread.join();
+    server_thread.join();
 
     return 0;
 }
